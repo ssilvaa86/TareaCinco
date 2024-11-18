@@ -1,20 +1,18 @@
-const notas = [6,8,9,2,5,10];
+//Tarea Numero Cinco - Stephanie Silva 
+const notas = [6, 8, 9, 2, 5, 10];
 
-
-function sumarNotas(notas){
+function sumarNotas(notas) {
     let resultadoSuma = 0;
-    for(let i=0; i<notas.length; i++){
-        
-        resultadoSuma +=notas[i];
- 
+    for (let i = 0; i < notas.length; i++) {
 
+        resultadoSuma += notas[i];
     }
     return resultadoSuma;
 
 }
 
-function promediarNotas(notas){
-    return sumarNotas(notas)/notas.length;
+function promediarNotas(notas) {
+    return sumarNotas(notas) / notas.length;
 
 }
 
